@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+nav {
+  background-color: #000000;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-basis: 15vw;
+  flex-shrink: 0;
+  float: right;
+  width:15vw;
+  order:0;
+}
+
+nav a{
+  background-color: grey;
+  color:#ffffff;
+  padding: 0.25em 0.5em;
+  transition: background-color 1s;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #000000;
+}
+
+header, section{
+  background-color: black;
+  color: #ddf;
+  overflow: auto;
+  padding: 0 0.5em;
+}
+section{
+  box-sizing: border-box;
+  width:85vw;
+}
+main{
+  display: flex;
+}
